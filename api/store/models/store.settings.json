@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stores",
+  "info": {
+    "name": "store",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nanoid": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "startAt": {
+      "type": "date"
+    },
+    "createdById": {
+      "type": "string"
+    },
+    "updatedById": {
+      "type": "string"
+    }
+  }
+}

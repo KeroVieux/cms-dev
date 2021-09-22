@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nanoid": {
+      "type": "string"
+    },
+    "store": {
+      "model": "store"
+    },
+    "total": {
+      "type": "decimal"
+    },
+    "client": {
+      "model": "client"
+    },
+    "staffInfo": {
+      "model": "staff-info"
+    }
+  }
+}

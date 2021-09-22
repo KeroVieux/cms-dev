@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "staff_infos",
+  "info": {
+    "name": "staffInfo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "store": {
+      "model": "store"
+    }
+  }
+}
